@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class AlumnoServiceImp extends BaseServiceImpl <Alumno, Long> implements AlumnoService {
+
     @Autowired
     private AlumnoRepository alumnoRepository;
 
