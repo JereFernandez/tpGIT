@@ -1,6 +1,7 @@
 package MainApplication.entities.audit;
 
-//import com.example.persona.config.CustomRevisionListener;
+
+import MainApplication.config.CustomRevisionListener;
 import lombok.Data;
 import org.hibernate.envers.RevisionEntity;
 import org.hibernate.envers.RevisionNumber;
@@ -12,7 +13,7 @@ import java.util.Date;
 
 @Entity
 @Table(name = "REVISION_INFO")
-//@RevisionEntity(CustomRevisionListener.class)
+@RevisionEntity(CustomRevisionListener.class)
 @Data
 public class Revision implements Serializable{
 
