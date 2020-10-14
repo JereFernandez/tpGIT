@@ -2,9 +2,7 @@ package MainApplication.entities;
 
 import lombok.*;
 import org.hibernate.envers.Audited;
-
 import javax.persistence.Entity;
-
 import javax.persistence.*;
 
 
