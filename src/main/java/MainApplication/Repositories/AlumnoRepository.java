@@ -1,4 +1,4 @@
-package Repositories;
+package MainApplication.Repositories;
 
 import MainApplication.entities.Alumno;
 import org.springframework.stereotype.Repository;
